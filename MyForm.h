@@ -1,7 +1,6 @@
 ﻿#pragma once
 #include<cmath>
 
-using namespace System::Windows::Forms::DataVisualization::Charting;
 namespace FourTusk {
 
 	using namespace System;
@@ -319,7 +318,6 @@ private: System::Void textBox1_Leave(System::Object^ sender, System::EventArgs^ 
 	if (a == false)
 	{
 		MessageBox::Show("ïàðàìåòð À íå ÿâëÿåòñÿ ÷èñëîì", "Îøèáêà ââîäà äàííûõ", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
-		//âîçâðàò ôîêóñà òåêñòîâîìó ïîëþ this->textBox1->Focus();
 	}
 }
 private: System::Void textBox2_Leave(System::Object^ sender, System::EventArgs^ e) {
