@@ -2,7 +2,7 @@
 #include<cmath>
 
 namespace FourTusk {
-
+	using namespace System::Windows::Forms::DataVisualization::Charting;
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
